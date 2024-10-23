@@ -1,0 +1,73 @@
+.contact-form {
+    display:inline-flex ;
+    margin: 150px;
+    position: relative;
+    padding: 15px;
+    
+}
+
+h1 {
+    text-decoration: underline;
+    text-decoration-color: blueviolet;
+}
+
+.contact-form-greet {
+    padding-top: 80px;
+    text-align: center;
+}
+
+.form-info {
+    float: right;
+    margin-left: 150px;
+    border: 10px solid rgb(11, 188, 212);
+    padding: 15px 60px;
+    border-style: inset;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#submit-button {
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    background-color: darkblue;
+    color: antiquewhite;
+}
+
+#name, #email {
+    width: 300px;
+}
+
+#message {
+    width: 300px;
+    height: 160px;
+}
+
+footer {
+    background-color: aquamarine;
+    display: flex;
+  
+  
+  }
+  
+  .social-media {
+    display: flex;
+    gap: 30px;
+  
+  }
+  
+  .call, .email {
+    text-align: center;
+    border: 1px solid palevioletred;
+    border-radius: 8px;
+    border-style: groove;
+    border-width: 8px;
+    margin: 35px;
+    margin-left: 30px;
+    padding: 15px;
+  }
+  
+  .address {
+    text-align: center;
+  }
+

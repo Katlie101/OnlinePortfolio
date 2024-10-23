@@ -1,0 +1,29 @@
+ol {
+    list-style-type: none;  
+}
+
+.about-image {
+    height: 200px;
+    width: 480px;
+    border-radius: 4px;
+}
+
+.skillhob {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+.about-image-text {
+    font-size: 16px;
+    border: 2px solid bisque;
+    border-radius: 4px;
+    box-shadow: inset;
+    
+}
+

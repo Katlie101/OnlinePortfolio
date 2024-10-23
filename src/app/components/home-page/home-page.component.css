@@ -1,0 +1,113 @@
+h2 {
+  font-size: 40px;
+
+}
+.hero-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.hero-image {
+  width: 100%;
+  height: 650px;
+}
+
+.hero-text {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  text-align: center;
+  font-size: 35px;
+  color: rgb(231, 231, 231);
+}
+
+.hero-text p {
+  font: bolder;
+}
+
+.hero-button {
+  border-radius: 8px;
+  border: 2px solid white;
+  font-size: 20px;
+  padding: 14px;
+}
+
+.about-home {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  max-width: 600px;
+  text-align: center;
+  float: left;
+}
+
+.card-content {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.card-item {
+  width: 48%;
+
+}
+
+.card-image {
+  width: 100%;
+  
+}
+
+.mission-vision {
+  float: right;
+  border: 1px solid white;
+  border-radius: 8px;
+  text-align: center;
+  padding: 14px;
+  max-width: 700px;
+  justify-content: space-evenly; 
+}
+
+h4 {
+  font-size: 25px;
+  text-decoration-line: underline;
+  text-decoration-color: blueviolet;
+}
+
+.about-alas {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+footer {
+  background-color: aquamarine;
+  display: flex;
+
+
+}
+
+.social-media {
+  display: flex;
+  gap: 30px;
+
+}
+
+.call, .email {
+  text-align: center;
+  border: 1px solid palevioletred;
+  border-radius: 8px;
+  border-style: groove;
+  border-width: 8px;
+  margin: 35px;
+  margin-left: 30px;
+  padding: 15px;
+}
+
+.address {
+  text-align: center;
+}
